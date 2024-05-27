@@ -35,26 +35,7 @@ Code Structure
 
 Initializes the SQLite database connection.
 Calls the menu function to start the user interaction loop.
-# Helper Functions:
 
-connection():Connects to the SQLite database and retrieves user information.
-valid_email(std::string): Validates the email format.
-valid_password(std::string): Checks the password criteria.
-valid_number(std::string): Ensures the input is numeric.
-valid_date(std::string): Validates the date format for card expiration.
-register_user(): Handles user registration, including input validation and database insertion.
-login(): Authenticates the user by checking the provided credentials against the database.
-menu(): Displays the main menu and directs users to various functions based on their choices.
-deposit(): Manages the deposit process, including updating the user's balance.
-transfer(): Handles the transfer of funds between users.
-User Interaction Flow
-Start: User is prompted to either log in or register.
-Registration: If chosen, the user is guided through the registration process, including input validation and database checks.
-Login: Authenticated users can access the main menu.
-Main Menu:
-Deposit Funds: User can deposit funds using their registered card or another valid card.
-Transfer Funds: User can transfer funds to another registered user.
-Exit: User can exit the application, ending the session.
 # Summary
 The program provides a comprehensive and secure banking system with essential functionalities for user management and financial transactions. It leverages SQLite for persistent storage and ensures data integrity through rigorous input validation and secure authentication mechanisms. The modular design and clear separation of concerns make it a reliable and extendable solution for basic banking operations.
 
