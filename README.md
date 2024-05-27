@@ -37,7 +37,7 @@ Initializes the SQLite database connection.
 Calls the menu function to start the user interaction loop.
 # Helper Functions:
 
-database(): Connects to the SQLite database and retrieves user information.
+database():Connects to the SQLite database and retrieves user information.
 valid_email(std::string): Validates the email format.
 valid_password(std::string): Checks the password criteria.
 valid_number(std::string): Ensures the input is numeric.
