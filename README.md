@@ -1,4 +1,5 @@
 # Bank_System_SQLite
+#ATTENTION :Use SQLITE BORWSER TO EDIT THE INFORMATION INTO THE DATA BASE (database.db)
 # Overview
 This C++ program implements a simple yet robust banking system that uses SQLite for data storage. The system allows users to register, log in, deposit funds, and transfer funds securely. Key features include input validation, secure user authentication, and database operations to maintain data integrity.
 
